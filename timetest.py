@@ -16,8 +16,8 @@ def time_in_india():
                   engine.say("am")
                   engine.runAndWait()
          elif hour>=12 and hour<18:
-                  print(dt_uk, "pm")
-                  engine.say(dt_uk)
+                  print(dt_India, "pm")
+                  engine.say(dt_India)
                   engine.say("pm")
                   engine.runAndWait()
 def time_in_uk():
