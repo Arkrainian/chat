@@ -10,8 +10,16 @@ engine.setProperty('rate', 150)
 def time_in_india():
          indian_time = pytz.timezone("Asia/Calcutta")
          dt_India = datetime.datetime.now(indian_time)
-         engine.say(dt_India)
-         engine.runAndWait()
+         if hour>=0 and hour<12:
+                  print(dt_India, "am")
+                  engine.say(dt_India)
+                  engine.say("am")
+                  engine.runAndWait()
+         elif hour>=12 and hour<18:
+                  print(dt_uk, "pm")
+                  engine.say(dt_uk)
+                  engine.say("pm")
+                  engine.runAndWait()
 def time_in_uk():
          uk_time = pytz.timezone("GMT")
          dt_uk = datetime.datetime.now(uk_time)
