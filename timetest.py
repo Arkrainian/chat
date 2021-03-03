@@ -10,6 +10,7 @@ engine.setProperty('rate', 150)
 def time_in_india():
          indian_time = pytz.timezone("Asia/Calcutta")
          dt_India = datetime.datetime.now(indian_time)
+         hour = int(datetime.datetime.now().hour)
          if hour>=0 and hour<12:
                   print(dt_India, "am")
                   engine.say(dt_India)
