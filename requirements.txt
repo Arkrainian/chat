@@ -1,0 +1,17 @@
+Must have:
+PyAudio
+datetime
+pyttsx3
+speech_recognition
+wikipedia
+webbrowser
+os
+smtplib
+random
+time
+pytz
+To install Pyaudio,
+you must have pipwin.
+Then do pipwin install PyAudio
+pip install DateTime
+pip install wikipedia

@@ -1,0 +1,22 @@
+You can ask: 
+search = in order to preform this command you must do "search whatever you want"
+open youtube =  in order to preform this command you must do "open youtube"
+open github =  in order to preform this command you must do "open github"
+open google =  in order to preform this command you must do "open google"
+goodbye =  in order to preform this command you must do "goodbye"
+in order to have a conversation with jarvis you must say "what's up" or "how are you".Jarvis will maybe respond back and you can say "happy" "sad" "fine" "okey" "not" "upset"
+
+who made you,who created you,who developed you = in order to preform this command you must asked one of the 3 following. "who made you", "who developed you", "who created you".
+
+asking "who are you" or "about you" or "your details" will tell Jarvis's details
+
+"hello" or "hello Jarvis" will make jarvis say hello to you 
+"your name" will make jarvis tell his name
+"your feelings" will trigger jarvis's feelings
+"exit" or "abort" or "stop" or "bye" or "quit" will exit the program
+
+if jarvis dosent understand what you said he can search it up
+before preforming that task it will ask you to type yes or no if you want to proceed
+(do not put spaces or he will not understand!)
+
+and remember, you can talk to this AI.
